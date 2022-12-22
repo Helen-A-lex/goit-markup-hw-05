@@ -78,7 +78,7 @@ margin-left: 77px;
 .nav-list .item +.item {margin-left: 40px;}
 
 .nav-link{position: relative;
-transition: color 250ms var(--transition-duration-and-func);
+transition: color  var(--transition-duration-and-func);
 padding-top:24px;
 padding-bottom:24px;
 
@@ -182,8 +182,8 @@ background-size: cover;}
 gap:24px;}
 
 .features-wrapper{display: flex;
-    justify-content: center;
-    align-items: center;
+justify-content: center;
+align-items: center;
 width: 264px;
 height:112px;
 border-radius: 4px;
@@ -282,7 +282,7 @@ fill: var(--secondary-text-color);}
     justify-content: center;
     align-items: center;
 
-    transition: fill 250ms var(--transition-duration-and-func), 
+    transition: fill  var(--transition-duration-and-func), 
     border var(--transition-duration-and-func);
 
     width: 168px;
@@ -430,7 +430,7 @@ height: 100%;
 padding: 40px 32px 164px;
 background-color: var(--accent-color);
 line-height: 1.5;
-letter-spacing: 0,02em;
+letter-spacing: 0.02em;
 color:#F4F4FD;}
 
 
